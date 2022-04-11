@@ -1,0 +1,114 @@
+:root {
+    --color-primary: #3b2364;
+    --color-blue: #bc69f4;
+    --color-green: #95c123;
+    /* --color-dark-grey: #606661; */
+    --color-dark-grey: #777;
+    --color-light-grey: rgba(236, 232, 232, 0.795);
+    --color-white: #fcfcfc;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-dark-grey);
+  }
+
+  .back{
+    background-color: var(--color-primary);
+    width: 100%;
+    min-height: 40vh;
+  }
+  .todo-section{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    width: 40%;
+    margin-left: -20%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    font-size: 1.3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .todo-title{
+    font-size: 1.8rem;
+    color: var(--color-green);
+    margin-bottom: 1rem;
+  }
+  .todo-form{
+    width: 80%;
+  }
+  .form-group{
+    margin-bottom: 2rem;
+  }
+  .form-control-top{
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  .form-control-bottom{
+    display: flex;
+  }
+  .form-control{
+  }
+
+  .form-control > *{
+    height: 3rem;
+  }
+  .checkbox{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1.5rem;
+  }
+  .form-control-name{
+    min-width: 70%;
+  }
+  .todo-input{
+    width: 30vw;
+    padding-left: 1rem;
+  }
+  .date-input{
+    width: 15vw;
+    margin-right: 1.5rem;
+    padding: 1rem;
+  }
+  .save-btn{
+    background-color: var(--color-green);
+    color: white;
+    padding: 0 2rem;
+    border: none;
+    display: block;
+    text-align: 0 auto;
+    width: 17vw;
+  }
+  .todo{
+    width: 33vw;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 1rem;
+  }
+  .unchecked-todo{
+    background-color: var(--color-primary);
+    color: white;
+  }
+  .checked-todo{
+    background-color: var(--color-green);
+    color: white;
+    text-decoration:line-through ;
+  }
+
+  
+
+
